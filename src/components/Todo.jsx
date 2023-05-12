@@ -1,6 +1,11 @@
 import React from 'react'
 
-const Todo = () => {
+import { useState } from 'react'
+
+const Todo = ({ todo }) => {
+
+    
+
     return (
         <div className="todo">
             <div className="content">
@@ -8,8 +13,8 @@ const Todo = () => {
                 <p>({todo.category})</p>
             </div>
             <div className="button">
-                <button>Completar</button>
-                <button>x</button>
+                <button className='complete'>Completar</button>
+                <button className='remove'>x</button>
             </div>
         </div>
     )

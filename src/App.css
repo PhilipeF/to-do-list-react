@@ -1,6 +1,6 @@
 body {
   font-family: Arial;
-  background-color: #f4f4f4;
+  background-color: #f4f4;
   padding: 30px;
   color: #333;
 }
@@ -18,7 +18,7 @@ h1 {
 }
 
 h2 {
-  margin-botton: 10px;
+  margin-bottom: 20px;
 }
 
 p {
@@ -26,5 +26,42 @@ p {
 }
 
 input {
-  box-sizing: border-box;
+  box-sizing: border-box; // não esquecer de ver isso
+}
+
+button {
+  background-color: #333974;
+  color: #fff;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+.complete {
+  background: #5cb85c;
+}
+
+.remove {
+  background: #d953af;
+}
+
+//Estilização do componente todo-form
+.todo-form {
+  padding-bottom: 3rem;
+}
+
+input,
+select {
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  width: 100%;
 }

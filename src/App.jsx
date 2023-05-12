@@ -1,4 +1,7 @@
+import Todo from "./components/Todo";
+import TodoForm from "./components/TodoForm";
 import { useState } from "react";
+
 import './App.css';
 
 function App() {
@@ -19,7 +22,7 @@ function App() {
 
       id: 3,
       text: "Pagar o seguro do carro",
-      category: "Contas",
+      category: "Finanças",
       isCompleted: false
     },
     {
@@ -29,23 +32,17 @@ function App() {
       isCompleted: false
     }
   ])
-  return <div className="app">
-    <h1>Lista de tarefas</h1>
-    <div className="todo-list">
-      {todos.map((todo) =>
-        <div className="todo">
-          <div className="content">
-            <p>{todo.text}</p>
-            <p>({todo.category})</p>
-          </div>
-          <div className="button">
-            <button>Completar</button>
-            <button>x</button>
-          </div>
-        </div>
-      )}
+  return (
+    <div className="app">
+      <h1>Lista de tarefas</h1>
+      <div className="todo-list">
+        {todos.map((todo) =>
+          <Todo todo={todo} />
+        )}
+      </div>
+      <TodoForm />
     </div>
-  </div>
+  )
 }
 
 export default App
