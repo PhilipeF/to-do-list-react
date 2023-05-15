@@ -37,6 +37,9 @@ function App() {
 
   const [search, setSearch] = useState('')
 
+  const [filter, setFilter] = useState('All')
+  const [sort, setSort] = useState('')
+
   const addTodo = (text, category) => {
     const newTodos = [
       ...todos,
@@ -69,10 +72,24 @@ function App() {
   return (
     <div className="app">
       <Search search={search} setSearch={setSearch} />
-      <Filter />
+      <Filter
+        filter={filter}
+        setFilter={setFilter}
+        setSort={setSort}
+      />
       <h1>Lista de tarefas</h1>
       <div className="todo-list">
         {todos
+          .filter((todo) =>
+            filter === 'All'
+              ? true
+              : filter === "Completed" ? todo.isCompleted : !todo.isCompleted
+          )
+          .sort((a, b) =>
+            sort === 'Asc'
+              ? a.text.localeCompare(b.text)
+              : b.text.localeCompare(a.text)
+          )
           .filter((todo) =>
             todo.text.toLocaleLowerCase().includes(search.toLocaleLowerCase())
           )
