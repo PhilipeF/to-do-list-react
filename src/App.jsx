@@ -4,6 +4,7 @@ import { useState } from "react";
 
 import './App.css';
 import { Search } from "./components/Search";
+import Filter from "./components/Filter";
 
 function App() {
   const [todos, setTodos] = useState([
@@ -67,8 +68,8 @@ function App() {
 
   return (
     <div className="app">
-      <Search search={search} setSearch={setSearch} />      
-
+      <Search search={search} setSearch={setSearch} />
+      <Filter />
       <h1>Lista de tarefas</h1>
       <div className="todo-list">
         {todos
