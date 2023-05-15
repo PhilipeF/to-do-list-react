@@ -65,10 +65,10 @@ function App() {
     setTodos(newTodos)
   }
 
-
   return (
     <div className="app">
-      <Search search={search} setSearch={setSearch} />
+      <Search search={search} setSearch={setSearch} />      
+
       <h1>Lista de tarefas</h1>
       <div className="todo-list">
         {todos
@@ -82,7 +82,9 @@ function App() {
               removeTodo={removeTodo}
               completeTodo={completeTodo}
             />
-          )}
+          )
+        }
+
       </div>
       <TodoForm addTodo={addTodo} />
     </div>
