@@ -75,7 +75,7 @@ function App() {
   const verfica = (todos) => todos.isCompleted === true
 
   if(todos.every(verfica)) {
-    alert('Todas as tarefas foram concluídas')
+    // alert('Todas as tarefas foram concluídas')
   }
 
 
