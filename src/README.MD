@@ -4,11 +4,21 @@
 
 ## Sobre
 
-Projeto desenvolvido com intuito de treinar as minhas habilidades com  a biblioteca React.js. Neste projeto pude compreender de fato gerenciamento de estado e compartilhando do propriedades utilizando um dos hooks mais utilizados no React.js o useState. 
+Projeto desenvolvido com intuito de treinar as minhas habilidades com  a biblioteca React.js. Neste projeto pude praticar gerenciamento de estado e compartilhando de propriedades utilizando um dos hooks mais utilizados no React.js o "useState".
 
-## Tecnologias Utilizadas
-<br>
+## 📹 Video demostrativo
 
+
+
+## Funcionalidades
+
+- Adicionar tarefa
+- Remover tarefa
+- Marcar tarefas concluidas
+- Listar todas tarefas concluidas e não concluidas
+- Ordernar em ordem crescente e descrescente todas as tarefas
+
+## 🚀 Tecnologias Utilizadas
 
 - [HTML](https://en.wikipedia.org/wiki/HTML): A HyperText Markup Language, ou HTML, é a linguagem de marcação padrão para documentos projetados para serem exibidos em um navegador da web. Ele pode ser auxiliado por tecnologias como Cascading Style Sheets (CSS) e linguagens de script como JavaScript.
 
@@ -20,8 +30,7 @@ Projeto desenvolvido com intuito de treinar as minhas habilidades com  a bibliot
 
 <br>
 
-Para baixar o código-fonte do projeto em sua máquina, primeiramente terá que ter instalado o Git.
-
+Para baixar o código-fonte do projeto em sua máquina, primeiramente terá que ter instalado o [**Git**](https://git-scm.com/).<p>
 Com o Git instalado, em seu terminal execute o seguinte comando:
 
 ```bash
@@ -40,7 +49,9 @@ Execute o projeto:
 npm run dev
 ```
 
-## 📹  Segue abaixo um video do projeto
+Projeto publicado junto a vercel como forma de facilitar a sua visibilidade [to-do-list](https://to-do-list-react-murex-eight.vercel.app/)
+
+
 
 ## 📲 Contato
 
