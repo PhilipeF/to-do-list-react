@@ -9,6 +9,7 @@ export const Search = ({ search, setSearch }) => {
                 placeholder='Digite aqui'
                 value={search}
                 onChange={(event) => setSearch(event.target.value)}
+                autoComplete='off'
             />
         </div>
     )

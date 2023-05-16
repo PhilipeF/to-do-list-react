@@ -1,6 +1,8 @@
 body {
   font-family: Arial;
-  background-color: #f4f4;
+  background-image: url('./img/rio.jpg');
+  background-position: center;
+  background-size: cover;
   padding: 30px;
   color: #333;
 }
@@ -26,7 +28,7 @@ p {
 }
 
 input {
-  box-sizing: border-box; // não esquecer de ver isso
+  box-sizing: border-box;
 }
 
 button {

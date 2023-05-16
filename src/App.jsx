@@ -58,6 +58,9 @@ function App() {
     const filteredTodos = newTodos.filter(todo =>
       todo.id !== id ? todo : null
     )
+    if (!filteredTodos.length) {
+      // alert('Todas as tarefas serão deletas')
+    }
     setTodos(filteredTodos)
   }
 
@@ -69,6 +72,13 @@ function App() {
     setTodos(newTodos)
   }
 
+  const verfica = (todos) => todos.isCompleted === true
+
+  if(todos.every(verfica)) {
+    alert('Todas as tarefas foram concluídas')
+  }
+
+
   return (
     <div className="app">
       <Search search={search} setSearch={setSearch} />
@@ -79,7 +89,8 @@ function App() {
       />
       <h1>Lista de tarefas</h1>
       <div className="todo-list">
-        {todos
+
+        {!todos.length ? 'Todos as tarefas foram deletas' : todos
           .filter((todo) =>
             filter === 'All'
               ? true
@@ -102,10 +113,9 @@ function App() {
             />
           )
         }
-
       </div>
       <TodoForm addTodo={addTodo} />
-    </div>
+    </div >
   )
 }
 

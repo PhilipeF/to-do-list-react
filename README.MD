@@ -8,8 +8,6 @@ Projeto desenvolvido com intuito de treinar as minhas habilidades com  a bibliot
 
 ## 📹 Video demostrativo
 
-
-
 ## Funcionalidades
 
 - Adicionar tarefa
@@ -38,11 +36,13 @@ git clone
 
 https://github.com/PhilipeF/to-do-list-react
 ```
-Para instalar as dependencias do projetos execute o seguinte comando: 
+
+Para instalar as dependencias do projetos execute o seguinte comando:
 
 ```
 npm install
 ```
+
 Execute o projeto:
 
 ```
@@ -51,12 +51,9 @@ npm run dev
 
 Projeto publicado junto a vercel como forma de facilitar a sua visibilidade [to-do-list](https://to-do-list-react-murex-eight.vercel.app/)
 
-
-
 ## 📲 Contato
 
 Entre em contato comigo por e-mail ou pelo meu LinkedIn:
 
 <a href="mailto:philipsferreiraa@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail"/></a>
 <a href="https://www.linkedin.com/in/philipe-ferreira-60696388/"><img src="https://img.shields.io/badge/linkedin%20-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-

@@ -24,6 +24,7 @@ const TodoForm = ({ addTodo }) => {
                     name="Criar uma nova tarefa"
                     value={value}
                     onChange={(event) => setValue(event.target.value)}
+                    autoComplete='off'
                 />
                 <select
                     value={category}
