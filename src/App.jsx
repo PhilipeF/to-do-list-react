@@ -74,10 +74,10 @@ function App() {
 
   const verfica = (todos) => todos.isCompleted === true
 
-  if(todos.every(verfica)) {
+  if (todos.every(verfica)) {
     // alert('Todas as tarefas foram concluídas')
   }
-
+  
 
   return (
     <div className="app">
