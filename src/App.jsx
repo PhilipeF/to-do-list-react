@@ -1,10 +1,10 @@
 import Todo from "./components/Todo";
 import TodoForm from "./components/TodoForm";
+import Filter from "./components/Filter";
+import { Search } from "./components/Search";
 import { useState } from "react";
 
 import './App.css';
-import { Search } from "./components/Search";
-import Filter from "./components/Filter";
 
 function App() {
   const [todos, setTodos] = useState([
@@ -40,6 +40,8 @@ function App() {
   const [filter, setFilter] = useState('All')
   const [sort, setSort] = useState('')
 
+  // const verifica = todos.every(elem => elem.isCompleted === true)
+
   const addTodo = (text, category) => {
     const newTodos = [
       ...todos,
@@ -55,29 +57,30 @@ function App() {
 
   const removeTodo = (id) => {
     const newTodos = [...todos];
+    if (newTodos.length === 1) {
+      alert('Todas as tarefas serão deletadas')
+    }
+
     const filteredTodos = newTodos.filter(todo =>
       todo.id !== id ? todo : null
     )
-    if (!filteredTodos.length) {
-      // alert('Todas as tarefas serão deletas')
-    }
     setTodos(filteredTodos)
   }
 
   const completeTodo = (id) => {
     const newTodos = [...todos]
-    newTodos.map((todo) =>
-      todo.id === id ? (todo.isCompleted = !todo.isCompleted) : todo
-    )
+    newTodos
+      .map((todo) =>
+        todo.id === id ? (todo.isCompleted = !todo.isCompleted) : todo
+      )
     setTodos(newTodos)
-  }
 
-  const verfica = (todos) => todos.isCompleted === true
+    const verifica = newTodos.every(elem => elem.isCompleted === true)
 
-  if (todos.every(verfica)) {
-    // alert('Todas as tarefas foram concluídas')
+    if (verifica) {
+      alert('Todas as tarefas foram concluídas')
+    }
   }
-  
 
   return (
     <div className="app">
