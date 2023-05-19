@@ -21,7 +21,7 @@ const TodoForm = ({ addTodo }) => {
             <form onSubmit={handleSubmit}>
                 <input
                     type="text"
-                    name="Criar uma nova tarefa"
+                    name="Criar uma nova categoria"
                     value={value}
                     onChange={(event) => setValue(event.target.value)}
                     autoComplete='off'

@@ -1,16 +1,18 @@
 body {
   font-family: Arial;
-  background-image: url('./img/rio.jpg');
+  background-image: url("./img/rio.jpg");
   background-position: center;
   background-size: cover;
   padding: 30px;
-  color: #333;
+  /* color: #333; */
+  color: #c8c3bc;
 }
 
 .app {
   max-width: 600px;
   margin: 0 auto;
-  background-color: #efefef;
+  /* background-color: #efefef; */
+  background-color: #212425;
   padding: 20px 30px;
   border-radius: 10px;
 }
@@ -54,7 +56,8 @@ button:hover {
 }
 
 .todo {
-  background-color: #fff;
+  /* background-color: #fff; */
+  background-color: #181a1b;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   padding: 10px;
   margin-bottom: 10px;
@@ -100,4 +103,15 @@ select {
 
 .filter-options div {
   flex: 1 1 0;
+}
+
+
+@media(max-width: 600px) {
+  .todo { 
+    display: grid;
+  }
+  .filter-options {
+    display: grid;
+    gap: 1rem;
+  } 
 }
