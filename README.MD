@@ -19,7 +19,7 @@ https://github.com/PhilipeF/to-do-list-turbinado-react/assets/64853039/0162ebf0-
 - Marcar tarefas concluídas
 - Listar todas tarefas concluídas e não concluídas
 - Listar em ordem crescente e descrescente todas as tarefas concluídas e não concluídas
-- Pesquisar tarefas por nome chave
+- Pesquisar tarefas por palavras chave
 - Modo Dark-Light
 
 Para conferir o sistema e todas as suas funcionalidade acesse o link - https://to-do-list-react-murex-eight.vercel.app/
