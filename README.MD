@@ -8,6 +8,10 @@ Projeto desenvolvido com intuito de treinar as minhas habilidades com  a bibliot
 
 ## 📹 Pequeno vídeo demonstrativo do sistema
 
+
+https://github.com/PhilipeF/to-do-list-turbinado-react/assets/64853039/0162ebf0-e56a-4991-b553-2742c3261eec
+
+
 ## Funcionalidades
 
 - Adicionar tarefa
