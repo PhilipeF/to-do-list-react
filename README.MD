@@ -17,7 +17,7 @@ Projeto desenvolvido com intuito de treinar as minhas habilidades com  a bibliot
 - Ordernar em ordem crescente e descrescente todas as tarefas
 - Modo Dark-Light
 
-Para conferir o sistema de todas as suas funcionalidade acesse o link - https://to-do-list-react-murex-eight.vercel.app/
+Para conferir o sistema e todas as suas funcionalidade acesse o link - https://to-do-list-react-murex-eight.vercel.app/
 
 
 ## 🚀 Tecnologias Utilizadas
