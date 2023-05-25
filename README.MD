@@ -15,6 +15,7 @@ Projeto desenvolvido com intuito de treinar as minhas habilidades com  a bibliot
 - Marcar tarefas concluídas
 - Listar todas tarefas concluídas e não concluídas
 - Listar em ordem crescente e descrescente todas as tarefas concluídas e não concluídas
+- Pesquisar tarefas por nome chave
 - Modo Dark-Light
 
 Para conferir o sistema e todas as suas funcionalidade acesse o link - https://to-do-list-react-murex-eight.vercel.app/
@@ -28,7 +29,7 @@ Para conferir o sistema e todas as suas funcionalidade acesse o link - https://t
 
 - [React.js](https://kinsta.com/pt/base-de-conhecimento/o-que-e-javascript/#vanilla-javascript): React é uma biblioteca JavaScript front-end gratuita e de código aberto para criar interfaces de usuário com base em componentes de interface do usuário. É mantido pela Meta e uma comunidade de desenvolvedores e empresas individuais.
 
-- [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript) - JavaScript® (às vezes abreviado para JS) é uma linguagem leve, interpretada e baseada em objetos com funções de primeira classe, mais conhecida como a linguagem de script para páginas Web, mas usada também em vários outros ambientes sem browser, tais como node.js, Apache CouchDB e Adobe Acrobat. O JavaScript é uma linguagem baseada em protótipos, multi-paradigma e dinâmica, suportando estilos de orientação a objetos, imperativos e declarativos (como por exemplo a programação funcional). Saiba mais sobre o JavaScript.
+- [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript) - JavaScript® (às vezes abreviado para JS) é uma linguagem leve, interpretada e baseada em objetos com funções de primeira classe, mais conhecida como a linguagem de script para páginas Web, mas usada também em vários outros ambientes sem browser, tais como node.js, Apache CouchDB e Adobe Acrobat. O JavaScript é uma linguagem baseada em protótipos, multi-paradigma e dinâmica, suportando estilos de orientação a objetos, imperativos e declarativos (como por exemplo a programação funcional). Saiba mais sobre o Javascript.
 
 <br>
 
