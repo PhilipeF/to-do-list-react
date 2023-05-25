@@ -6,15 +6,19 @@
 
 Projeto desenvolvido com intuito de treinar as minhas habilidades com  a biblioteca React.js. Neste projeto pude praticar gerenciamento de estado e compartilhando de propriedades utilizando um dos hooks mais utilizados no React.js o "useState".
 
-## 📹 Video demostrativo
+## 📹 Pequeno Vídeo demostrativo
 
 ## Funcionalidades
 
 - Adicionar tarefa
 - Remover tarefa
-- Marcar tarefas concluidas
-- Listar todas tarefas concluidas e não concluidas
+- Marcar tarefas concluídas
+- Listar todas tarefas concluídas e não concluídas
 - Ordernar em ordem crescente e descrescente todas as tarefas
+- Modo Dark-Light
+
+Para conferir o sistema de todas as suas funcionalidade acesse o link - https://to-do-list-react-murex-eight.vercel.app/
+
 
 ## 🚀 Tecnologias Utilizadas
 
@@ -48,8 +52,6 @@ Execute o projeto:
 ```
 npm run dev
 ```
-
-Projeto publicado junto a vercel como forma de facilitar a sua visibilidade [to-do-list](https://to-do-list-react-murex-eight.vercel.app/)
 
 ## 📲 Contato
 
