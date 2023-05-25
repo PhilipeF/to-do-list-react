@@ -6,7 +6,7 @@
 
 Projeto desenvolvido com intuito de treinar as minhas habilidades com  a biblioteca React.js. Neste projeto pude praticar gerenciamento de estado e compartilhando de propriedades utilizando um dos hooks mais utilizados no React.js o "useState".
 
-## 📹 Pequeno vídeo demostrativo do sitema
+## 📹 Pequeno vídeo demostrativo do sistema
 
 ## Funcionalidades
 
