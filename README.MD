@@ -14,7 +14,7 @@ Projeto desenvolvido com intuito de treinar as minhas habilidades com  a bibliot
 - Remover tarefa
 - Marcar tarefas concluídas
 - Listar todas tarefas concluídas e não concluídas
-- Ordernar em ordem crescente e descrescente todas as tarefas
+- Listar em ordem crescente e descrescente todas as tarefas concluídas e não concluídas
 - Modo Dark-Light
 
 Para conferir o sistema e todas as suas funcionalidade acesse o link - https://to-do-list-react-murex-eight.vercel.app/
