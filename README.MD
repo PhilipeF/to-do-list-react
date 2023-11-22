@@ -8,6 +8,10 @@ Projeto desenvolvido com intuito de treinar as minhas habilidades com  a bibliot
 
 ## 📹 Pequeno vídeo demonstrativo do sistema
 
+
+https://github.com/PhilipeF/to-do-list-turbinado-react/assets/64853039/0162ebf0-e56a-4991-b553-2742c3261eec
+
+
 ## Funcionalidades
 
 - Adicionar tarefa
@@ -15,7 +19,11 @@ Projeto desenvolvido com intuito de treinar as minhas habilidades com  a bibliot
 - Marcar tarefas concluídas
 - Listar todas tarefas concluídas e não concluídas
 - Listar em ordem crescente e descrescente todas as tarefas concluídas e não concluídas
+<<<<<<< HEAD
 - Pesquisar tarefas por nome chave
+=======
+- Pesquisar tarefas por palavras chave
+>>>>>>> origin/main
 - Modo Dark-Light
 
 Para conferir o sistema e todas as suas funcionalidade acesse o link - https://to-do-list-react-murex-eight.vercel.app/
