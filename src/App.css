@@ -62,6 +62,11 @@ button:hover {
   justify-content: space-between;
 }
 
+.category {
+  color: #d953af;
+  font-size: 12px
+}
+
 .complete {
   background: #5cb85c;
 }

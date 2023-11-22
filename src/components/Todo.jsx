@@ -8,7 +8,7 @@ const Todo = ({ todo, removeTodo, completeTodo }) => {
                 style={{ textDecoration: todo.isCompleted ? 'line-through' : '' }}
             >
                 <p> {todo.text}</p>
-                <p>({todo.category})</p>
+                <p className='category'> {todo.category}</p>
             </div>
             <div className="button">
                 <button className='complete'
