@@ -162,6 +162,16 @@ body.dark .switch::before {
 }
 
 @media (max-width: 600px) {
+  .todo {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .todo .button {
+    display: flex;
+    justify-content: flex-end;
+  }
+
   .todo-list {
     display: grid;
   }
