@@ -1,14 +1,20 @@
 import React from 'react'
 
 const body = document.querySelector('body')
-const modeSwitch = document.querySelector('.toggle-switch')
 
 const handleCLick = () => {
-    console.log('Passei aqui')
     body.classList.toggle('dark')
 }
 
-export const Search = ({ search, setSearch }) => {
+export const Search = ({search , setSearch}) => {
+    const handleSearch = () => {
+        console.log(`Pesquisando por: ${search}`)
+    }
+
+    const handleInputChange = (event) => {
+        setSearch(event.target.value)
+    }
+
     return (
         <div className="search">
             <div className="topo">
@@ -19,12 +25,14 @@ export const Search = ({ search, setSearch }) => {
             </div>
             <div>
                 <input
+                    id='searchInput'
                     type="text"
-                    placeholder='Digite aqui'
+                    placeholder='Digite aqui o nome da tarefa'
                     value={search}
-                    onChange={(event) => setSearch(event.target.value)}
+                    onChange={handleInputChange}
                     autoComplete='off'
                 />
+                <button onClick={handleSearch}>Buscar</button>
             </div>
         </div>
     )

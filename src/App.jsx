@@ -40,8 +40,6 @@ function App() {
   const [filter, setFilter] = useState('All')
   const [sort, setSort] = useState('')
 
-  // const verifica = todos.every(elem => elem.isCompleted === true)
-
   const addTodo = (text, category) => {
     const newTodos = [
       ...todos,
@@ -84,7 +82,7 @@ function App() {
 
   return (
     <div className="app">
-      <Search search={search} setSearch={setSearch} />
+     <Search search={search} setSearch={setSearch} /> 
       <Filter
         filter={filter}
         setFilter={setFilter}
